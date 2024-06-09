@@ -19,13 +19,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/Gideon-w/Frontend-Mentor-Results-summary-component/blob/main/Screenshot%202024-06-09%20at%2011-16-10%20Frontend%20Mentor%20Results%20summary%20component.png)
 
 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Frontend-Mentor-Results-Summary-Component](https://gideon-w.github.io/Frontend-Mentor-Results-summary-component/)
 
 ## My process
 

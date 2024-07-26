@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
- 
-</head>
-<body>
+    <title>Frontend Mentor | Results summary component</title>
 
-  <main>
-    <section class="result">
-      <h2>Your Result</h2>
-      <div class="score">
-        <span class="numerator">76</span>
-        <span class="denominator">of 100</span>
-      </div>
-      <p class="remark">Great</p>
-      <p class="comment">
-        You scored higher than 65% of
-        the people who have taken
-        these tests.
-      </p>
-    </section>
-
-    <section class="summary">
-      <div class="summary-container">
-        <h2>Summary</h2>
-        <div class="list-wrapper">
-          <ul class="status-list">
-            <li class="status-react">Reaction</li>
-            <li class="status-mem">Memory</li>
-            <li class="status-verbal">Verbal</li>
-            <li class="status-visual">Visual</li>
-          </ul>
-
-          <ul class="score-list">
-            <li>80<span>/100</span></li>
-            <li>92<span>/100</span></li>
-            <li>61<span>/100</span></li>
-            <li class="bottom-list">72<span>/100</span></li>
-          </ul>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <section class="result">
+        <h2>Your Result</h2>
+        <div class="score">
+          <span class="numerator">76</span>
+          <span class="denominator">of 100</span>
         </div>
-        
+        <h2>Great</h2>
+        <p>
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+
+      <section class="summary">
+        <h2>Summary</h2>
+        <ul class="status-list">
+          <li class="status-react">
+            <div>Reaction</div>
+            <div>80<span>/100</span></div>
+          </li>
+          <li class="status-mem">
+            <div>Memory</div>
+            <div>92<span>/100</span></div>
+          </li>
+          <li class="status-verbal">
+            <div>Verbal</div>
+            <div>61<span>/100</span></div>
+          </li>
+          <li class="status-visual">
+            <div>Visual</div>
+            <div class="bottom-list">72<span>/100</span></div>
+          </li>
+        </ul>
+
         <button type="button">Continue</button>
-      </div>
-      
-    </section>
-  </main>
-  
-  <footer class="attribution">
-    Challenge by: <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br>
-    Coded by: <a href="https://www.frontendmentor.io/profile/Gideon-w">Gideon-w</a>.
-  </footer>
-</body>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by:
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >.<br />
+      Coded by:
+      <a href="https://www.frontendmentor.io/profile/Gideon-w">Gideon-w</a>.
+    </footer>
+  </body>
 </html>

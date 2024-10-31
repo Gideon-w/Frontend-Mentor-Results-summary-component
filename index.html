@@ -16,54 +16,61 @@
 
     <title>Frontend Mentor | Results summary component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
   </head>
   <body>
-    <main>
-      <section class="result">
-        <h2>Your Result</h2>
-        <div class="score">
-          <span class="numerator">76</span>
-          <span class="denominator">of 100</span>
+    <div class="container">
+      <main>
+        <div class="left-side">
+          <h2 class="heading-secondary left-side-heading">Your Result</h2>
+          <div class="left-center">
+            <div class="percent">
+              <span class="numerator">76</span>
+              <span class="denominator">of 100</span>
+            </div>
+            <p class="remark">Great</p>
+          </div>
+          <p class="comment">
+            You scored higher than 65% of the people who have taken these tests
+          </p>
         </div>
-        <h2>Great</h2>
-        <p>
-          You scored higher than 65% of the people who have taken these tests.
-        </p>
-      </section>
-
-      <section class="summary">
-        <h2>Summary</h2>
-        <ul class="status-list">
-          <li class="status-react">
-            <div>Reaction</div>
-            <div>80<span>/100</span></div>
-          </li>
-          <li class="status-mem">
-            <div>Memory</div>
-            <div>92<span>/100</span></div>
-          </li>
-          <li class="status-verbal">
-            <div>Verbal</div>
-            <div>61<span>/100</span></div>
-          </li>
-          <li class="status-visual">
-            <div>Visual</div>
-            <div class="bottom-list">72<span>/100</span></div>
-          </li>
-        </ul>
-
-        <button type="button">Continue</button>
-      </section>
-    </main>
-
-    <footer class="attribution">
-      Challenge by:
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >.<br />
-      Coded by:
-      <a href="https://www.frontendmentor.io/profile/Gideon-w">Gideon-w</a>.
-    </footer>
+        <div class="right-side">
+          <h2 class="heading-secondary right-side-heading">Summary</h2>
+          <div class="score">
+            <ul class="score-list">
+              <li class="list-item">
+                <span class="category reaction">Reaction</span>
+                <span class="mark"> <strong>80</strong>/100 </span>
+              </li>
+              <li class="list-item">
+                <span class="category memory">Memory</span>
+                <span class="mark"> <strong>92</strong>/100 </span>
+              </li>
+              <li class="list-item">
+                <span class="category verbal">Verbal</span>
+                <span class="mark"> <strong>61</strong>/100 </span>
+              </li>
+              <li class="list-item">
+                <span class="category visual">Visual</span>
+                <span class="mark"> <strong>72</strong>/100 </span>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="btn">Continue</button>
+        </div>
+      </main>
+      <footer class="attribution">
+        <div class="mentor">
+          Challenge by:
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >.
+        </div>
+        <div class="coder">
+          Coded by:
+          <a href="https://www.frontendmentor.io/profile/Gideon-w">Gideon-w</a>.
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

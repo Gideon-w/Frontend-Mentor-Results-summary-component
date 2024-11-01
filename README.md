@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](Screenshot 2024-06-09 at 11-16-10 Frontend Mentor Results summary component.png.png)
+![](Screenshot%202024-06-09%20at%2011-16-10%20Frontend%20Mentor%20Results%20summary%20component.png.png)
 
 
 
